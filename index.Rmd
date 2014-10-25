@@ -24,11 +24,14 @@ where mass is in kg and height is in metres.
 
 It is independent of age (although it isn't appropriate for children) and works equally well for both genders.
 
+For example
+```{r}
+mass <- 60
+height  <- 1.8
 
-<div style='text-align: center;'>
-<img height='50' src='assets/img/BMIpic.png'/>
-</div>
-
+bmi <- mass/height^2
+bmi
+```
 
 --- .class #id 
 
@@ -40,14 +43,12 @@ It is hosted on the web at https://kendra.shinyapps.io/newApp and will work with
 
 The user simply enters their mass and height and presses "Go calculate!"
 
-For example
-```{r}
-mass <- 60
-height  <- 1.8
 
-bmi <- mass/height^2
-bmi
-```
+<div style='text-align: center;'>
+<img height='50' src='assets/img/BMIpic.png'/>
+</div>
+
+
 
 --- &radio
 

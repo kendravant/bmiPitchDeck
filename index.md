@@ -24,22 +24,6 @@ where mass is in kg and height is in metres.
 
 It is independent of age (although it isn't appropriate for children) and works equally well for both genders.
 
-
-<div style='text-align: center;'>
-<img height='50' src='assets/img/BMIpic.png'/>
-</div>
-
-
---- .class #id 
-
-## How does the app work?
-
-CheckMyBMI is very simple to use
-
-It is hosted on the web at https://kendra.shinyapps.io/newApp and will work with any modern browser or even on a smartphone.
-
-The user simply enters their mass and height and presses "Go calculate!"
-
 For example
 
 ```r
@@ -53,6 +37,23 @@ bmi
 ```
 ## [1] 18.52
 ```
+
+--- .class #id 
+
+## How does the app work?
+
+CheckMyBMI is very simple to use
+
+It is hosted on the web at https://kendra.shinyapps.io/newApp and will work with any modern browser or even on a smartphone.
+
+The user simply enters their mass and height and presses "Go calculate!"
+
+
+<div style='text-align: center;'>
+<img height='50' src='assets/img/BMIpic.png'/>
+</div>
+
+
 
 --- &radio
 
