@@ -55,7 +55,7 @@ The user simply enters their mass and height and presses "Go calculate!"
 
 --- &radio
 
-## Just how fat are we getting?
+## So just how fat are we getting?
 
 What percentage of Australian adults are overweight or obese in 2014?
 
@@ -72,7 +72,6 @@ It's 60% of the population or 3 out of every 5 adults.
 --- .class #id
 
 ## Thanks for reading
-
 
 I hope you will 
 - give CheckMyBMI a go
