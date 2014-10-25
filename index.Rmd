@@ -22,9 +22,7 @@ $$
 
 where mass is in kg and height is in metres.
 
-It is independent of age (although it isn't appropriate for children) and works equally well for both genders.
-
-For example
+It is independent of age (although it isn't appropriate for children) and works equally well for both genders. For example
 ```{r}
 mass <- 60
 height  <- 1.8
