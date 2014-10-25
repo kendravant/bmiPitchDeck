@@ -11,9 +11,16 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Slide 1
+## What is BMI?
 
-some text here
+BMI or Body Mass Index is a simple metric that gives an indication of whether a person is underweight, overweight or a health weight.
+
+$$
+BMI = mass/height^2
+$$
+
+It is independent of age and works for both genders.
+
 
 --- .class #id 
 
