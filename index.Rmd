@@ -73,7 +73,8 @@ I hope you will
 - give CheckMyBMI a go
 - share it with your friends 
 
-Enormous thanks to Ramnath Vaidyanathan for the amazing Slidify package for making interactive docs with RMarkdown. Check it out for yourself at http://slidify.github.io/
+Many thanks and much kudos to Ramnath Vaidyanathan for the amazing Slidify package which was used to create this presentation. 
+Check it out for yourself at http://slidify.github.io/
 
 
 
