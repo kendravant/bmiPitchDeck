@@ -1,31 +1,85 @@
 ---
-title       : A handy web based BMI calculator
+title       : CheckMyBMI - A handy web based BMI calculator
 subtitle    : See how you measure up
-author      : Kendra Vant
+author      : 
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
+widgets     : [mathjax, quiz, bootstrap]       # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
+logo        : apple_with_tape.jpg
 ---
 
 ## What is BMI?
 
-BMI or Body Mass Index is a simple metric that gives an indication of whether a person is underweight, overweight or a health weight.
+BMI or Body Mass Index is a simple metric that gives an indication of whether a person is underweight, overweight or a healthy weight.
 
-$$
-BMI = mass/height^2
+$$latex
+BMI = \frac{mass}{height^2}
 $$
 
-It is independent of age and works for both genders.
+where mass is in kg and height is in metres.
+
+It is independent of age (although it isn't appropriate for children) and works equally well for both genders.
+
+
+<div style='text-align: center;'>
+<img height='50' src='assets/img/BMIpic.png'/>
+</div>
 
 
 --- .class #id 
 
-## Slide 2
+## How does the app work?
 
+CheckMyBMI is very simple to use
+
+It is hosted on the web at https://kendra.shinyapps.io/newApp and will work with any modern browser or even on a smartphone.
+
+The user simply enters their mass and height and presses "Go calculate!"
+
+For example
+
+```r
+mass <- 60
+height  <- 1.8
+
+bmi <- mass/height^2
+bmi
+```
+
+```
+## [1] 18.52
+```
+
+--- &radio
+
+## Just how fat are we getting?
+
+What percentage of Australian adults are overweight or obese in 2014?
+
+1. 22%
+2. 37%
+3. _60%_
+4. 74%
+*** .hint 
+It's more than half the population!
+
+*** .explanation 
+It's 60% of the population or 3 out of every 5 adults.
+
+--- .class #id
+
+## Thanks for reading
+
+
+I hope you will 
+- give CheckMyBMI a go
+- share it with your friends 
+
+Enormous thanks to Ramnath Vaidyanathan for the amazing Slidify package for making interactive docs with RMarkdown. Check it out for yourself at http://slidify.github.io/
 
 
 
