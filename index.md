@@ -40,11 +40,7 @@ bmi
 
 ## How does the app work?
 
-CheckMyBMI is very simple to use. It is hosted on the web at 
-
-<div style='text-align: center;'> https://kendra.shinyapps.io/newApp </div>
-
-and will work with any modern browser or even on a smartphone.
+CheckMyBMI is very simple to use. It is hosted on the web at [shinyapps](https://kendra.shinyapps.io/newApp), and will work with any modern browser or even on a smartphone.
 
 The user simply enters their mass and height and presses "Go calculate!"
 
